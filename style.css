@@ -1,0 +1,523 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0%;
+}
+
+header {
+  background-color: #4DA046;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+#logo {
+  width: 7vw;
+  height: auto;
+  padding-left: 4%;
+  top: 50%;
+  left: 5%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  transition: transform 0.3s;
+}
+
+#logo:hover {
+  transform: translate(-50%, -50%) scale(0.9);
+}
+
+#logo:active {
+  transform: translate(-50%, -50%) scale(0.8);
+  transition: transform 0.2s;
+}
+
+.menu {
+  float: right;
+  padding-right: 5%;
+  padding-top: 1%;
+}
+
+.button {
+  display: inline-block;
+  padding: 1.5% 16px;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #4DA046;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #326F36;
+  transform: scale(1.1);
+  animation: none;
+}
+
+.button:active {
+  transform: scale(1.0);
+  transition: transform 0.2s;
+}
+
+/* -------------------------------------------------------------- */
+
+main {
+  padding-top: 7%;
+  background-image: url(elementos/BG.png);
+  width: 100%;
+  height: 120vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#foreball {
+  position: absolute;
+  top: 15%;
+  left: 0;
+}
+
+#ballimg {
+  position: absolute;
+  top: 17%;
+  left: 0%;
+}
+
+#ballimg2 {
+  position: absolute;
+  right: 0%;
+  top: 37%;
+}
+
+#titulo {
+  color: #ffffff;
+  padding-left: 35%;
+  text-align: left;
+  font-size: 200%;
+  line-height: 20px;
+  padding-top: 10%;
+}
+
+#desc {
+  color: #ffffff;
+  font-size: 110%;
+  text-align: left;
+  padding-left: 35%;
+  padding-right: 29%;
+}
+
+#ods1 {
+  padding-top: 24%;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+#titulo2 {
+  text-align: center;
+  color: #446339;
+  font-size: 420%;
+}
+
+#titulo3 {
+  margin-left: 30%;
+  color: #446339;
+  font-size: 420%;
+}
+
+#ballimg3 {
+  width: 26vw;
+  height: auto;
+  position: absolute;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#ballimg3:hover {
+  transform: scale(1.1);
+  transition: transform 0.4s;
+  animation: none;
+}
+
+#ballimg3:active {
+  transform: scale(0.8);
+  transition: transform 0.2s;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  padding-left: 20%;
+}
+
+.ver-mais {
+  background-color: #4DA046;
+  color: #ffffff;
+  border: none;
+  border-radius: 18px;
+  padding: 5px 20px;
+  font-size: 200%;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.ver-mais:hover {
+  transform: scale(1.1);
+  background-color: #3C813F;
+}
+
+.ver-mais:active {
+  transform: scale(0.9);
+  background-color: #326F36;
+}
+
+.noticias {
+  background-image: url(elementos/BG2.jpg);
+  width: 100%;
+  height: 175%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -50;
+}
+
+#bloconot {
+  position: absolute;
+  padding-left: 10%;
+  width: 80%;
+}
+
+.container-carrossel {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.item-carrossel {
+  text-align: center;
+  transition: transform 0.3s;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.item-carrossel:first-child,
+.item-carrossel:last-child {
+  flex-basis: 20%;
+}
+
+.item-carrossel:nth-child(2) {
+  flex-basis: 30%;
+  max-width: 40%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.item-carrossel img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+  max-height: 100%;
+}
+
+.item-carrossel:hover {
+  transform: scale(0.9);
+}
+
+.item-carrossel:active {
+  transform: scale(0.8);
+  transition: transform 0.4s;
+}
+
+#txtcarrossel {
+  text-align: left;
+  font-size: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* ---------------------------------------------------------- */
+
+#desc2 {
+  color: #446339;
+  font-size: 150%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.container2 {
+  padding-top: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.quadrado1 {
+  width: 500px;
+  height: 130px;
+  background-color: #4da046;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu2 {
+  padding: 0;
+  margin: 0;
+}
+
+.menu2 li {
+  margin-bottom: 10px;
+}
+
+.menu2 li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.menu2 li::before {
+  content: "•";
+  margin-right: 10px;
+  color: white;
+}
+
+.menu2 li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  font-size: 130%;
+  line-height: 1.5;
+}
+
+.menu2 li a:hover {
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.menu2 li a:active {
+  color: yellow;
+  font-size: 16px;
+}
+
+#line {
+  height: auto;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#bordas {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+}
+
+.caixa {
+  display: flex;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.coluna {
+  flex: 1;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+  margin-bottom: 3%;
+}
+
+.titulo4 {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.texto {
+  margin-bottom: 10px;
+}
+
+.coluna-imagem {
+  flex: 1;
+  padding: 10px;
+}
+
+.coluna-informacoes {
+  flex: 1;
+  padding: 10px;
+}
+
+.container4 {
+  padding-top: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+
+#feitos1 {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+
+.feitos {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: block;
+}
+
+#desc3 {
+  top: 80%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #446339;
+  font-size: 120%;
+  text-align: justify;
+}
+
+.caixa-imagem {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.parteano{
+  display: flex;
+  align-items: center;
+  padding-top: 10%;
+}
+
+#sp {
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+#feitos-sao-paulo {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+}
+
+#desc4 {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 29%;
+  position: absolute;
+  color: #446339;
+  font-size: 130%;
+  text-align: left;
+}
+
+#titulo5 {
+  text-align: center;
+  color: #446339;
+  padding-top: 15%;
+  font-size: 420%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#sp2 {
+  width: 100%;
+  height: auto;
+}
+
+/* ----------------------------- foter */
+
+
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+  flex: 1;
+}
+
+h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.footer-links,
+.contact-info {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li,
+.contact-info p {
+  margin-top: 10px;
+}
+
+.footer-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-button {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.social-button:hover,
+.footer-links li a:hover,
+.contact-button:hover {
+  opacity: 0.7;
+}
+
+.footer img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+}
