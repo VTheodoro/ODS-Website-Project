@@ -1,10 +1,10 @@
 # Projeto: Site sobre Objetivos de Desenvolvimento Sustentável (ODS) - Saúde e Bem-estar
 
-Este repositório contém os arquivos de um dos primeiro sites desenvolvido por mim como parte de um projeto durante o primeiro ano do curso de Desenvolvimento de Sistemas na ETEC, na disciplina de Programação Web, sob a supervisão do professor **[(Fred)](https://github.com/fbamuniz)**.
+Este repositório contém os arquivos de um dos primeiro sites desenvolvido por mim como parte de um projeto durante o primeiro ano do curso de Desenvolvimento de Sistemas na ETEC, na disciplina de Programação Web, sob a supervisão do professor **[Fred](https://github.com/fbamuniz)**.
 
 ## Descrição do Projeto
 
-O projeto consiste em um site voltado para a conscientização sobre os **[(Objetivos de Desenvolvimento Sustentável (ODS))](https://www.ipea.gov.br/ods/ods3.html)**, com foco na área da saúde e bem-estar. Foi desenvolvido em HTML e CSS, sendo um dos primeiros sites criados pelos colaboradores. O trabalho foi realizado em grupo, com contribuições significativas de todos os membros. A programação foi conduzida principalmente por Victor, enquanto o design, textos e ideias foram elaborados por Miguel e Larissa utilizando o Figma.
+O projeto consiste em um site voltado para a conscientização sobre os **[Objetivos de Desenvolvimento Sustentável (ODS)](https://www.ipea.gov.br/ods/ods3.html)**, com foco na área da saúde e bem-estar. Foi desenvolvido em HTML e CSS, sendo um dos primeiros sites criados pelos colaboradores. O trabalho foi realizado em grupo, com contribuições significativas de todos os membros. A programação foi conduzida principalmente por Victor, enquanto o design, textos e ideias foram elaborados por Miguel e Larissa utilizando o Figma.
 
 ## Conteúdo
 
@@ -16,9 +16,9 @@ O site aborda informações relevantes sobre os ODS relacionados à saúde e bem
 
 ## Contribuidores
 
-- **[(Victor Theodoro)](https://github.com/VTheodoro)**
-- **[(Miguel José)](https://github.com/Josef-miguel)**
-- **[(Larissa Vassao)](https://github.com/LarissaVassao)**
+- **[Victor Theodoro](https://github.com/VTheodoro)**
+- **[Miguel José](https://github.com/Josef-miguel)**
+- **[Larissa Vassao](https://github.com/LarissaVassao)**
 
 ## Como Contribuir
 
