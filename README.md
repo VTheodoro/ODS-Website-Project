@@ -1,7 +1,3 @@
-Aqui está a tradução para o português de forma clara e natural:
-
----
-
 # Projeto: Website sobre os Objetivos de Desenvolvimento Sustentável (ODS) - Saúde e Bem-estar
 
 Este repositório contém os arquivos de um dos primeiros websites desenvolvidos por mim, como parte de um projeto durante o primeiro ano do curso de Desenvolvimento de Sistemas na ETEC, na disciplina de Programação para Web, sob a supervisão do Professor [Fred Barbosa](https://github.com/fbamuniz).
@@ -44,7 +40,3 @@ Se você deseja contribuir para este projeto, siga os seguintes passos:
 ## Licença
 
 Este projeto está licenciado sob a [Licença MIT](LICENSE).
-
----
-
-Se precisar de ajustes, é só avisar!
