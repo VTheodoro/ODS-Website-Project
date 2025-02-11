@@ -1,42 +1,50 @@
-# Project: Website on Sustainable Development Goals (SDGs) - Health and Well-being
+Aqui está a tradução para o português de forma clara e natural:
 
-This repository contains the files of one of the first websites developed by me as part of a project during the first year of the Systems Development course at ETEC, in the Web Programming discipline, under the supervision of Professor [Fred Barbosa](https://github.com/fbamuniz).
+---
 
-## Project Description
+# Projeto: Website sobre os Objetivos de Desenvolvimento Sustentável (ODS) - Saúde e Bem-estar
 
-The project consists of a website aimed at raising awareness about the [Sustainable Development Goals (SDGs)](https://www.ipea.gov.br/ods/ods3.html), focusing on health and well-being. It was developed in HTML and CSS, being one of the first websites created by the contributors. The work was carried out in a group, with significant contributions from all members. Programming was mainly led by Victor, while design, texts, and ideas were developed by Miguel and Larissa using Figma.
+Este repositório contém os arquivos de um dos primeiros websites desenvolvidos por mim, como parte de um projeto durante o primeiro ano do curso de Desenvolvimento de Sistemas na ETEC, na disciplina de Programação para Web, sob a supervisão do Professor [Fred Barbosa](https://github.com/fbamuniz).
+
+## Descrição do Projeto
+
+O projeto consiste em um website voltado para a conscientização sobre os [Objetivos de Desenvolvimento Sustentável (ODS)](https://www.ipea.gov.br/ods/ods3.html), com foco na saúde e bem-estar. Foi desenvolvido em HTML e CSS, sendo um dos primeiros sites criados pelos colaboradores. O trabalho foi realizado em grupo, com contribuições significativas de todos os membros. A programação foi liderada principalmente por Victor, enquanto o design, os textos e as ideias foram desenvolvidos por Miguel e Larissa usando o Figma.
 
 <div align="left">  
-<h2>Technologies Used</h2>
+<h2>Tecnologias Utilizadas</h2>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="60"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="60"/>
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" width="60"/>
 </div>
 
-## Content
+## Conteúdo
 
-The website covers relevant information about the SDGs related to health and well-being, presenting content such as:
+O website aborda informações relevantes sobre os ODS relacionados à saúde e bem-estar, apresentando conteúdos como:
 
-- Specific goals of the SDGs in this area.
-- Statistics and data related to global health.
-- Initiatives and recommended actions to promote health and well-being.
+- Objetivos específicos dos ODS nesta área.
+- Estatísticas e dados relacionados à saúde global.
+- Iniciativas e ações recomendadas para promover saúde e bem-estar.
 
-## Contributors
+## Contribuidores
 
 - [Victor Theodoro](https://github.com/VTheodoro)
 - [Miguel José](https://github.com/Josef-miguel)
 - [Larissa Vassao](https://github.com/LarissaVassao)
 
-## How to Contribute
+## Como Contribuir
 
-If you wish to contribute to this project, follow these steps:
+Se você deseja contribuir para este projeto, siga os seguintes passos:
 
-1. Fork the repository.
-2. Create a branch for your contribution (`git checkout -b my-contribution`).
-3. Make your changes and commit (`git commit -am 'Adding my contribution'`).
-4. Push to the branch (`git push origin my-contribution`).
-5. Open a Pull Request.
+1. Faça um fork do repositório.
+2. Crie uma branch para a sua contribuição (`git checkout -b minha-contribuicao`).
+3. Faça suas alterações e commit (`git commit -am 'Adicionando minha contribuição'`).
+4. Envie para a branch (`git push origin minha-contribuicao`).
+5. Abra um Pull Request.
 
-## License
+## Licença
 
-This project is licensed under the [MIT License](LICENSE).
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
+---
+
+Se precisar de ajustes, é só avisar!
